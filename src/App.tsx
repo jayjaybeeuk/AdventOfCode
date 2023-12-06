@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 
 import AdventOne from "./Pages/AdventOne";
+import AdventThree from "./Pages/AdventThree";
 import Layout from "./Components/Layout";
 
 import reactLogo from "./assets/react.svg";
@@ -23,6 +24,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route path="/adventOne" element={<AdventOne />} />
+          </Route>
+          <Route path="/" element={<Layout />}>
+            <Route path="/adventThree" element={<AdventThree />} />
           </Route>
         </Routes>
       </div>

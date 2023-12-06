@@ -13,6 +13,9 @@ function Layout() {
           <li>
             <Link to="/adventOne">Advent One</Link>
           </li>
+          <li>
+            <Link to="/adventThree">Advent Three</Link>
+          </li>
         </ul>
       </nav>
 
